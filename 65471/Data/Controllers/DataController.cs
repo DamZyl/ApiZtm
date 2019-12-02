@@ -24,5 +24,13 @@ namespace _65471.Data.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<DataSingleDto>> Get(Guid id)
             => Json(await _dataService.GetAsync(id));
+        
+        [HttpGet("line/{line}")]
+        public ActionResult<IEnumerable<DataDto>> Get(int line)
+            => Json( _dataService.GetByLine(line));
+        
+        [HttpGet("line")]
+        public ActionResult<IEnumerable<DataDto>> GetLine()
+            => Json( _dataService.GetLineNumbers());
     }
 }

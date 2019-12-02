@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="648a7174-a320-435e-bf15-06877e04634a" name="Default Changelist" comment="" />
+    <list default="true" id="648a7174-a320-435e-bf15-06877e04634a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.65471.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.65471.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Controllers/DataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Controllers/DataController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MemoriesDb/MemoryDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/MemoriesDb/MemoryDb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/DataRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/DataRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Repositories/IDataRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/IDataRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Services/DataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Services/DataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Services/IDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Services/IDataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/65471.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/65471.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/65471.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/65471.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.pdb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D32DB49E-5E34-4072-9DA3-1845C03DDC3A/90/4811bb75/JsonSerializer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -63,21 +79,22 @@
         <option value="$PROJECT_DIR$/Data/Models/DataDto.cs" />
         <option value="$PROJECT_DIR$/Data/Models/DataSingleDto.cs" />
         <option value="$PROJECT_DIR$/Data/Options/ApiOptions.cs" />
-        <option value="$PROJECT_DIR$/Startup.cs" />
-        <option value="$PROJECT_DIR$/Data/Services/IDataService.cs" />
-        <option value="$PROJECT_DIR$/Data/Repositories/DataRepository.cs" />
-        <option value="$PROJECT_DIR$/Data/Repositories/IDataRepository.cs" />
-        <option value="$PROJECT_DIR$/Data/MemoriesDb/MemoryDb.cs" />
-        <option value="$PROJECT_DIR$/Data/Controllers/DataController.cs" />
         <option value="$PROJECT_DIR$/Data/Mappers/Mapper.cs" />
         <option value="$PROJECT_DIR$/Data/Extensions.cs" />
         <option value="$PROJECT_DIR$/Data/Extensions/Extensions.cs" />
         <option value="$PROJECT_DIR$/Data/Extensions/ConvertExtension.cs" />
+        <option value="$PROJECT_DIR$/Data/MemoriesDb/MemoryDb.cs" />
+        <option value="$PROJECT_DIR$/Data/Services/IDataService.cs" />
+        <option value="$PROJECT_DIR$/Data/Repositories/DataRepository.cs" />
+        <option value="$PROJECT_DIR$/Data/Repositories/IDataRepository.cs" />
+        <option value="$PROJECT_DIR$/Data/Controllers/DataController.cs" />
         <option value="$PROJECT_DIR$/Data/Services/DataService.cs" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1UO2bVMieUeUgSIEP4n7C8zJG0k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -141,6 +158,7 @@
       <workItem from="1575222029251" duration="8334000" />
       <workItem from="1575244489939" duration="5434000" />
       <workItem from="1575250168489" duration="1671000" />
+      <workItem from="1575283737648" duration="2377000" />
     </task>
     <servers />
   </component>
@@ -149,6 +167,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>

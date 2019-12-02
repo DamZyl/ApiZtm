@@ -38,7 +38,7 @@ namespace _65471
             {
                 app.UseHsts();
             }
-
+            app.UseCors(x => x.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader());
             app.UseHttpsRedirection();
             app.UseMvc();
         }

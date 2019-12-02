@@ -15,13 +15,33 @@ namespace _65471.Data.Repositories
             _memoryDb = memoryDb;
         }
 
+        public IEnumerable<DataDto> Get(int line)
+            => _memoryDb.DataDtoList.Where(x => x.Line == line).ToList();
+
+        public IEnumerable<DataDto> Get()
+            => _memoryDb.DataDtoList.ToList();
+
+        public IEnumerable<int> GetSet()
+            => _memoryDb.LineNumbers.ToList();
+
         public DataDto Get(Guid id)
             => _memoryDb.DataDtoList.FirstOrDefault(x => x.Id == id);
 
         public void Add(IEnumerable<DataDto> dataDtoList)
             => _memoryDb.DataDtoList.AddRange(dataDtoList);
 
+        public void Add(IEnumerable<int> lineNumbers)
+        {
+            foreach (var lineNumber in lineNumbers)
+            {
+                _memoryDb.LineNumbers.Add(lineNumber);
+            }
+        }
+
         public void Clear()
             => _memoryDb.DataDtoList.Clear();
+
+        public void ClearSet()
+            => _memoryDb.LineNumbers.Clear();
     }
 }

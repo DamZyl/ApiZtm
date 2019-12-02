@@ -29,6 +29,7 @@ namespace _65471.Data.Services
         public async Task<IEnumerable<DataDto>> GetAllAsync()
         {
             _dataRepository.Clear();
+            _dataRepository.ClearSet();
             
             var response = await _httpClient.GetAsync(
                 $"https://api.um.warszawa.pl/api/action/busestrams_get/?resource_id=f2e5503e-927d-4ad3-9500-4ab9e55deb59&apikey={_apiOptions.Value.Key}&type={_apiOptions.Value.Type}");
@@ -38,6 +39,17 @@ namespace _65471.Data.Services
             _dataRepository.Add(returnValues);
             
             return returnValues;
+        }
+
+        public IEnumerable<DataDto> GetByLine(int line)
+            => _dataRepository.Get(line);
+
+        public IEnumerable<int> GetLineNumbers()
+        {
+            var data = _dataRepository.Get();
+            _dataRepository.Add(data.Select(x => x.Line).ToList());
+
+            return _dataRepository.GetSet();
         }
 
         public async Task<DataSingleDto> GetAsync(Guid id)
