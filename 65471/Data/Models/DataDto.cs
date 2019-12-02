@@ -2,8 +2,12 @@ using System;
 
 namespace _65471.Data.Models
 {
-    public class DataDto : DataSingleDto
+    public class DataDto
     {
-        public Guid Id { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+        public DateTime Time { get; set; }
+        public int Line { get; set; }
+        public string Brigade { get; set; }
     }
 }

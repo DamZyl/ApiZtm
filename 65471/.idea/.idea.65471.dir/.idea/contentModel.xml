@@ -21,7 +21,6 @@
         <e p="Models" t="Include">
           <e p="Data.cs" t="Include" />
           <e p="DataDto.cs" t="Include" />
-          <e p="DataSingleDto.cs" t="Include" />
         </e>
         <e p="Options" t="Include">
           <e p="ApiOptions.cs" t="Include" />

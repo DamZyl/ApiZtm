@@ -11,6 +11,6 @@ namespace _65471.Data.Services
         Task<IEnumerable<DataDto>> GetAllAsync();
         IEnumerable<DataDto> GetByLine(int line);
         IEnumerable<int> GetLineNumbers();
-        Task<DataSingleDto> GetAsync(Guid id);
+        Task<DataDto> GetAsync(int line, string brigade);
     }
 }

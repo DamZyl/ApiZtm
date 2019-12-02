@@ -52,15 +52,15 @@ namespace _65471.Data.Services
             return _dataRepository.GetSet();
         }
 
-        public async Task<DataSingleDto> GetAsync(Guid id)
+        public async Task<DataDto> GetAsync(int line, string brigade)
         {
-            var data = _dataRepository.Get(id);
+            var data = _dataRepository.Get(line, brigade);
             
             var response = await _httpClient.GetAsync(
                 $"https://api.um.warszawa.pl/api/action/busestrams_get/?resource_id=f2e5503e-927d-4ad3-9500-4ab9e55deb59&apikey={_apiOptions.Value.Key}&type={_apiOptions.Value.Type}&line={data.Line}&brigade={data.Brigade}");
             
             var myData = ConvertExtension.JsonConverterExtension(await ConvertExtension.GetDataFromUrlAsString(response));
-            var returnValue = myData.Select(Mapper.MapDataToSingle).FirstOrDefault();
+            var returnValue = myData.Select(Mapper.MapDataToDto).FirstOrDefault();
 
             return returnValue;
         }

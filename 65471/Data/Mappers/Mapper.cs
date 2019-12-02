@@ -9,29 +9,14 @@ namespace _65471.Data.Mappers
         {
             var dataDto = new DataDto
             {
-                Id = Guid.NewGuid(),
                 Latitude = data.Latitude,
                 Longitude = data.Longitude,
                 Time = data.Time,
                 Line = data.Line,
                 Brigade = data.Brigade
             };
-            
-            return dataDto;
-        }
 
-        public static DataSingleDto MapDataToSingle(Models.Data data)
-        {
-            var dataSingleDto = new DataSingleDto
-            {
-                Latitude = data.Latitude,
-                Longitude = data.Longitude,
-                Time = data.Time,
-                Line = data.Line,
-                Brigade = data.Brigade
-            };
-            
-            return dataSingleDto;
+            return dataDto;
         }
     }
 }

@@ -6,7 +6,7 @@ namespace _65471.Data.Repositories
 {
     public interface IDataRepository
     {
-        DataDto Get(Guid id);
+        DataDto Get(int line, string brigade);
         IEnumerable<DataDto> Get();
         IEnumerable<int> GetSet();
         IEnumerable<DataDto> Get(int line);

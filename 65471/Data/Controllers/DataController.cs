@@ -21,9 +21,9 @@ namespace _65471.Data.Controllers
         public async Task<ActionResult<IEnumerable<DataDto>>> Get()
             => Json(await _dataService.GetAllAsync());
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<DataSingleDto>> Get(Guid id)
-            => Json(await _dataService.GetAsync(id));
+        [HttpGet("{line}&{brigade}")]
+        public async Task<ActionResult<DataDto>> Get(int line, string brigade)
+            => Json(await _dataService.GetAsync(line, brigade));
         
         [HttpGet("line/{line}")]
         public ActionResult<IEnumerable<DataDto>> Get(int line)
