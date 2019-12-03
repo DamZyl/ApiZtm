@@ -15,10 +15,10 @@ namespace _65471.Data.Repositories
             _memoryDb = memoryDb;
         }
 
-        public IEnumerable<DataDto> Get(int line)
-            => _memoryDb.DataDtoList.Where(x => x.Line == line).ToList();
+        //public IEnumerable<DataDto> Get(int line)
+           // => _memoryDb.DataDtoList.Where(x => x.Line == line).ToList();
 
-        public IEnumerable<DataDto> Get()
+       public IEnumerable<DataDto> Get()
             => _memoryDb.DataDtoList.ToList();
 
         public IEnumerable<int> GetSet()

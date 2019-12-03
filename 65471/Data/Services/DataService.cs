@@ -41,8 +41,16 @@ namespace _65471.Data.Services
             return returnValues;
         }
 
-        public IEnumerable<DataDto> GetByLine(int line)
-            => _dataRepository.Get(line);
+        public async Task<IEnumerable<DataDto>> GetByLine(int line)
+        {
+            var response = await _httpClient.GetAsync(
+                $"https://api.um.warszawa.pl/api/action/busestrams_get/?resource_id=f2e5503e-927d-4ad3-9500-4ab9e55deb59&apikey={_apiOptions.Value.Key}&type={_apiOptions.Value.Type}&line={line}");
+            
+            var myData = ConvertExtension.JsonConverterExtension(await ConvertExtension.GetDataFromUrlAsString(response));
+            var returnValues = myData.Select(Mapper.MapDataToDto).ToList();
+            
+            return returnValues;
+        }
 
         public IEnumerable<int> GetLineNumbers()
         {

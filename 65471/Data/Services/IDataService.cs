@@ -9,7 +9,7 @@ namespace _65471.Data.Services
     public interface IDataService
     {
         Task<IEnumerable<DataDto>> GetAllAsync();
-        IEnumerable<DataDto> GetByLine(int line);
+        Task<IEnumerable<DataDto>> GetByLine(int line);
         IEnumerable<int> GetLineNumbers();
         Task<DataDto> GetAsync(int line, string brigade);
     }

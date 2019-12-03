@@ -26,8 +26,8 @@ namespace _65471.Data.Controllers
             => Json(await _dataService.GetAsync(line, brigade));
         
         [HttpGet("line/{line}")]
-        public ActionResult<IEnumerable<DataDto>> Get(int line)
-            => Json( _dataService.GetByLine(line));
+        public async Task<ActionResult<IEnumerable<DataDto>>> Get(int line)
+            => Json( await _dataService.GetByLine(line));
         
         [HttpGet("line")]
         public ActionResult<IEnumerable<DataDto>> GetLine()

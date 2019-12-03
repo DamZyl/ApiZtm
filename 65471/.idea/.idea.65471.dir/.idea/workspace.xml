@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="648a7174-a320-435e-bf15-06877e04634a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.65471.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.65471.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.65471.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.65471.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Controllers/DataController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Controllers/DataController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Mappers/Mapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Mappers/Mapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Models/DataDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Models/DataDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Models/DataSingleDto.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Repositories/DataRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/DataRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Repositories/IDataRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Repositories/IDataRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Services/DataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Services/DataService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Services/IDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Services/IDataService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/65471.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/65471.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/65471.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/65471.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/65471.pdb" afterDir="false" />
     </list>
@@ -86,11 +81,11 @@
         <option value="$PROJECT_DIR$/Startup.cs" />
         <option value="$PROJECT_DIR$/Data/Models/DataSingleDto.cs" />
         <option value="$PROJECT_DIR$/Data/Models/DataDto.cs" />
+        <option value="$PROJECT_DIR$/Data/Mappers/Mapper.cs" />
+        <option value="$PROJECT_DIR$/Data/Services/DataService.cs" />
+        <option value="$PROJECT_DIR$/Data/Services/IDataService.cs" />
         <option value="$PROJECT_DIR$/Data/Repositories/IDataRepository.cs" />
         <option value="$PROJECT_DIR$/Data/Repositories/DataRepository.cs" />
-        <option value="$PROJECT_DIR$/Data/Mappers/Mapper.cs" />
-        <option value="$PROJECT_DIR$/Data/Services/IDataService.cs" />
-        <option value="$PROJECT_DIR$/Data/Services/DataService.cs" />
         <option value="$PROJECT_DIR$/Data/Controllers/DataController.cs" />
       </list>
     </option>
@@ -164,6 +159,7 @@
       <workItem from="1575287879368" duration="228000" />
       <workItem from="1575292254886" duration="75000" />
       <workItem from="1575316668489" duration="491000" />
+      <workItem from="1575351134138" duration="492000" />
     </task>
     <servers />
   </component>
